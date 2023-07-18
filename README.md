@@ -1,0 +1,2 @@
+# optimization
+studying optimization method

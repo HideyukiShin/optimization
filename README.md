@@ -10,7 +10,8 @@ optimazation
 
 2. conjugate_gradient_method
  CGM.opt(cost function)
+  Implent linear seach.
 
-3. Newton method
+4. Newton method
   Newton_method.opt(cost function)
     Inplmenta Hessian, and extend to lambda 

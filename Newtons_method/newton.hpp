@@ -51,12 +51,12 @@ public:
   {
     H m;
     const auto df = diff(f, x);
-    for(size_t i=0; i<R; ++i)
+    for(size_t i=0; i<R; ++i) // TODO: write better code 
     {
-      for(size_t j=0; j<R; ++j)
+      for(size_t j=0; j<R; ++j) 
       {
         X dx = x;
-        dx(j) += epsilon;
+        dx(j) += epsilon;        
         auto df_ = diff(f,dx);
         m(i,j) = (df_(i)-df(i))/epsilon;
       }

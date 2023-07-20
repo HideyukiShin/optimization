@@ -7,3 +7,10 @@ SDM needs the number of variable.
 
 optimazation 
  SDM.opt(cost fucntion) 
+
+2. conjugate_gradient_method
+ CGM.opt(cost function)
+
+3. Newton method
+  Newton_method.opt(cost function)
+    Inplmenta Hessian, and extend to lambda 
